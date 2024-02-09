@@ -1,0 +1,55 @@
+.aeg-slide-left {
+    width: 100%;
+    overflow: hidden;
+    animation: 2s slide-left;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: -100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.kaob-slide-right {
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    animation: 2s slide-right 2s ease-in-out forwards;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -100%;
+        width: 200%;
+    }
+    to {
+        margin-left: 0;
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.fade-in-text-delayed {
+    opacity: 0;
+    animation: fadeIn 2s 3s ease-in-out forwards;
+}
+
+.fade-in-text {
+    opacity: 0;
+    animation: fadeIn 2s 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

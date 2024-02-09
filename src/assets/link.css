@@ -1,0 +1,41 @@
+a.white:link {
+    color: white;
+    text-decoration: transparent;
+}
+
+a.white:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.white:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a.white:active {
+    color: white;
+    text-decoration: none;
+}
+
+a.black:link {
+    color: black;
+    text-decoration: transparent;
+}
+
+a.black:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a.black:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a.black:active {
+    color: black;
+    text-decoration: none;
+}
+
+

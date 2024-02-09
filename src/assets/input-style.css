@@ -1,0 +1,45 @@
+textarea {
+    display: flex;
+    width: 100%;
+    height: 60%;
+
+    font-family: 'Gideon Roman', sans-serif;
+    box-shadow: 0 3px 3px 3px rgba(170, 170, 170, 0.97);
+    border: transparent;
+    font-size: 16px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text-box-wide {
+    width: 600px;
+    padding: 5px;
+    margin: 7px 0;
+    box-shadow: 0 2px 2px 2px rgba(170, 170, 170, 0.97);
+    border: transparent;
+    font-family: 'Gideon Roman', sans-serif;
+}
+
+.input-text-box-wide:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+.input-text-box-wide-and-long {
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+    margin: 7px 0;
+    box-shadow: 0 2px 2px 2px rgba(170, 170, 170, 0.97);
+    border: transparent;
+    font-family: 'Gideon Roman', sans-serif;
+}
+
+.textarea-container-for-white-half-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: center;
+}

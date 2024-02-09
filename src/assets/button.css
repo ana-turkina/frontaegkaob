@@ -1,0 +1,75 @@
+button {
+    width: auto;
+    background-color: transparent;
+    font-family: 'Gideon Roman', sans-serif;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.white-button-text {
+    width: auto;
+    margin-top: 15px;
+    margin-right: 25px;
+    color: white;
+    padding: 3px 8px;
+    font-family: 'Gideon Roman', sans-serif;
+    font-size: 26px;
+    border-radius: 0;
+}
+
+.black-button-text {
+    width: auto;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #111;
+    padding: 3px 8px;
+    font-family: 'Gideon Roman', sans-serif;
+    font-size: 26px;
+    border-radius: 0;
+}
+
+.black-button-text:hover {
+    background-color: rgba(217, 217, 217, 0.75);
+}
+
+.white-button-text:hover {
+    background-color: rgba(217, 217, 217, 0.75);
+}
+
+.start-page-button-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.login-button-wrapper {
+    justify-content: flex-end;
+}
+
+.signup-button-wrapper {
+    justify-content: flex-start;
+}
+
+.logout-button-wrapper {
+    display: flex;
+    justify-content: center;
+
+    > button {
+        margin-left: unset;
+    }
+}
+
+@font-face {
+    font-family: 'Gideon Roman';
+    src: url('GideonRoman-Regular.ttf') format('truetype');
+}
+
+.footer-button-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.table {
+    display: table;
+    border-spacing: 160px 10px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.row {
+    display: table-row;
+}
+
+.header, .cell {
+    display: table-cell;
+    padding: 6px;
+    width: auto;
+}

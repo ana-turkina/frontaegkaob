@@ -1,0 +1,250 @@
+.white-aeg-text {
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    color: white;
+    width: 100%;
+    font-size: 180px;
+    font-family: 'Gideon Roman', sans-serif;
+
+}
+
+.black-kaob-text {
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    color: black;
+    width: 100%;
+    font-size: 180px;
+    font-family: 'Gideon Roman', sans-serif;
+}
+
+.black-title-text {
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: 'Gideon Roman', sans-serif;
+    text-align: center;
+}
+
+.white-title-text {
+    width: 100%;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: 'Gideon Roman', sans-serif;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Gideon Roman';
+    src: url('GideonRoman-Regular.ttf') format('truetype');
+}
+
+.white-pg-header1 {
+    margin: 10px;
+    display: flex;
+    width: auto;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black-pg-header1 {
+    margin: 10px;
+    display: flex;
+    width: auto;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.white-pg-header2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black-pg-header2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
+.white-pg-header3 {
+    margin: 50px;
+    display: flex;
+    width: auto;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black-pg-header3 {
+    margin: 0;
+    display: flex;
+    width: auto;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #111;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.white-pg-header4 {
+    margin: 30px;
+    display: flex;
+    width: auto;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black-pg-header4 {
+    margin: 30px;
+    display: flex;
+    width: auto;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.white-body-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 160px;
+    justify-content: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black-body-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    justify-content: center;
+
+    color: #000;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.alert-error {
+    color: red;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+    font-family: "Gideon Roman", sans-serif;
+    font-size: 16px;
+}
+
+.alert-success {
+    color: green;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+    font-family: "Gideon Roman", sans-serif;
+    font-size: 16px;
+}
+
+.row-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    >div{
+        padding: 0 50px;
+    }
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
